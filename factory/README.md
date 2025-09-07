@@ -9,33 +9,12 @@ En su lugar, delega la responsabilidad de creación a una clase llamada *Factory
 ## Diagrama
 ```mermaid
 classDiagram
-    class Product {
-        - name: String
-        - price: double
-        + getDetails(): String
-    }
-
-    class Fruit {
-        + getDetails(): String
-    }
-
-    class Vegetable {
-        + getDetails(): String
-    }
-
-    class Dairy {
-        + getDetails(): String
-    }
-
-    class ProductFactory {
-        + createProduct(type: ProductType, name: String, price: double): Product
-    }
-
-    enum ProductType {
-        FRUIT
-        VEGETABLE
-        DAIRY
-    }
+    class Product
+    class Fruit
+    class Vegetable
+    class Dairy
+    class ProductFactory
+    class ProductType
 
     Product <|-- Fruit
     Product <|-- Vegetable
