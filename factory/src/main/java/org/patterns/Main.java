@@ -9,13 +9,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Product apple = ProductFactory.createProduct(ProductType.FRUIT, "Apple", 0.99);
-        Product carrot = ProductFactory.createProduct(ProductType.VEGETABLE, "Carrot", 0.59);
-        Product milk = ProductFactory.createProduct(ProductType.DAIRY, "Milk", 1.49);
+        // Build a product using the builder
+        Product apple = new Product.Builder()
+                .name("Apple")
+                .category("Fruit")
+                .price(0.99)
+                .inStock(true)
+                .build();
 
-        log.info("Instance {} - {}", apple.getClass().getName(), apple.getDetails());
-        log.info("Instance {} - {}", carrot.getClass().getName(), carrot.getDetails());
-        log.info("Instance {} - {}", milk.getClass().getName(), milk.getDetails());
+        Product laptop = new Product.Builder()
+                .name("Laptop")
+                .category("Electronics")
+                .price(1299.99)
+                .inStock(false)
+                .build();
+
+        System.out.println(apple);
+        System.out.println(laptop);
 
     }
 }
