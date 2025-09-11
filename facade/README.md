@@ -1,4 +1,4 @@
-# Patrón Singleton
+# Patrón Facade
 
 ## Definición
 El patrón **Facade** proporciona una interfaz unificada y simplificada a un conjunto de interfaces en un subsistema.  
