@@ -1,4 +1,4 @@
-# Patrón Singleton
+# Patrón Factory
 
 ## Definición
 El **Patrón Factory Method** es un patrón de diseño creacional que permite **crear objetos sin exponer la lógica de instanciación al cliente**.  

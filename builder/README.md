@@ -1,4 +1,4 @@
-# Patrón Singleton
+# Patrón Builder
 
 ## Definición
 El patrón Builder es un patrón de diseño creacional que separa la construcción de un objeto complejo de su representación, de manera que el mismo proceso de construcción puede crear diferentes representaciones del objeto.
