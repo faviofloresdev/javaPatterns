@@ -37,7 +37,7 @@ Este proyecto no es solo mío: es de todos los que creen en el poder de comparti
 | **Composite**    | Compuesto        | Organiza objetos en jerarquías tipo árbol. | ❌ No implementado |
 | **Proxy**        | Proxy / Apoderado | Controla el acceso a un objeto. | ❌ No implementado |
 | **Bridge**       | Puente           | Separa una abstracción de su implementación. | ❌ No implementado |
-| **Flyweight**    | Peso Ligero      | Minimiza el uso de memoria compartiendo objetos. | ❌ No implementado |
+| **Flyweight**    | Peso Ligero      | Minimiza el uso de memoria compartiendo objetos. | ✅ Implementado |
 
 ---
 
