@@ -1,4 +1,4 @@
-# Patrón Facade
+# Patrón Flyweight
 
 ## Definición
 El patrón Flyweight tiene como objetivo minimizar el uso de memoria compartiendo objetos que tienen un estado común (intrínseco) entre múltiples instancias.
