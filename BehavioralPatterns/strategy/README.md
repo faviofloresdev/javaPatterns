@@ -1,4 +1,4 @@
-# Patrón Builder
+# Patrón Strategy
 
 ## Definición
 El **Patrón Strategy** permite definir una familia de algoritmos, encapsularlos y hacerlos intercambiables.  
