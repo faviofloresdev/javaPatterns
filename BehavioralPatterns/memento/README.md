@@ -29,8 +29,8 @@ classDiagram
         +revertToState(state: String)
     }
 
-    Originator --> Memento
-    Caretaker --> Originator
+    InputText --> Memento
+    Laboratory --> InputText
 ```
 ## Resultado obtenido
 Al ejecutar el código de ejemplo, se observa que el objeto Laboratory puede guardar y restaurar
