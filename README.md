@@ -51,7 +51,7 @@ Este proyecto no es solo mío: es de todos los que creen en el poder de comparti
 | **State**                   | Estado                    | Cambia el comportamiento según el estado interno. | ❌ No implementado |
 | **Iterator**                | Iterador                  | Recorre colecciones sin exponer su estructura interna. | ❌ No implementado |
 | **Mediator**                | Mediador                  | Centraliza la comunicación entre objetos. | ❌ No implementado |
-| **Memento**                 | Recuerdo / Memento        | Guarda y restaura estados previos. | ❌ No implementado |
+| **Memento**                 | Recuerdo / Memento        | Guarda y restaura estados previos. | ✅ Implementado |
 | **Chain of Responsibility** | Cadena de Responsabilidad | Pasa una petición a través de una cadena de handlers. | ❌ No implementado |
 | **Interpreter**             | Intérprete                | Define gramáticas y reglas para interpretar sentencias. | ❌ No implementado |
 | **Visitor**                 | Visitante                 | Separa algoritmos de las estructuras de objetos. | ❌ No implementado |
